@@ -32,7 +32,8 @@ var tbody = d3.select("tbody");
 appendRows(tableData);
 ```
 
-![data-filters.PNG](imges/data-filters.PNG)
+!Data filter]('imges/data-filters.PNG')
+
 
 Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 
@@ -52,7 +53,7 @@ submit.on("click", function() {
     ```
 
 End of Level 1
-------------------------------------
+----------------------------------------------------------------------------------------
 
 ## Level 2: Multiple Search Categories (Optional)
 
@@ -67,6 +68,8 @@ Uing multiple input tags and/or select dropdowns, write JavaScript code so the u
 * country
 
 * shape
+
+
 
 ```javascript
 var submit = d3.select("#filter-btn");
@@ -106,6 +109,6 @@ submit.on("click", function() {
 });
 ```
 
-![filtered-data.PNG](images/filtered-data.PNG)
+![filtered-data.PNG]('images/filtered-data.PNG')
 
 End of Homework RMJ

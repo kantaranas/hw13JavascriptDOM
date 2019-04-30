@@ -32,7 +32,7 @@ var tbody = d3.select("tbody");
 appendRows(tableData);
 ```
 
-![data-filters.PNG](attachment:data-filters.PNG)
+![data-filters.PNG](imges/data-filters.PNG)
 
 Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 
@@ -52,6 +52,7 @@ submit.on("click", function() {
     ```
 
 End of Level 1
+------------------------------------
 
 ## Level 2: Multiple Search Categories (Optional)
 
@@ -105,11 +106,6 @@ submit.on("click", function() {
 });
 ```
 
-![filtered-data.PNG](attachment:filtered-data.PNG)
+![filtered-data.PNG](images/filtered-data.PNG)
 
 End of Homework RMJ
-
-
-```python
-
-```

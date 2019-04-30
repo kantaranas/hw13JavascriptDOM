@@ -32,7 +32,7 @@ var tbody = d3.select("tbody");
 appendRows(tableData);
 ```
 
-![Data filter]('imges/data-filters.PNG')
+![Data filter](static/images/data-filters.PNG)
 
 
 Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
@@ -50,24 +50,9 @@ submit.on("click", function() {
     // Select the input element and get the raw HTML node
     var ufoDate = d3.select("#datetime").property("value");
     var filteredData = tableData.filter(result => result.datetime === ufoDate);
-    ```
+```
 
-End of Level 1
-----------------------------------------------------------------------------------------
 
-## Level 2: Multiple Search Categories (Optional)
-
-Uing multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
-
-* date/time
-
-* city
-
-* state
-
-* country
-
-* shape
 
 
 
@@ -109,6 +94,6 @@ submit.on("click", function() {
 });
 ```
 
-![filtered-data.PNG]('images/filtered-data.PNG')
+![filtered-data](static/images/filtered-data.PNG)
 
 End of Homework RMJ

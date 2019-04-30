@@ -32,7 +32,7 @@ var tbody = d3.select("tbody");
 appendRows(tableData);
 ```
 
-!Data filter]('imges/data-filters.PNG')
+![Data filter]('imges/data-filters.PNG')
 
 
 Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
